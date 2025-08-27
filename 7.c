@@ -2,9 +2,10 @@
 int main()
 {
      int min,hours;
-     printf("Enter Minutes : ");
+     printf("Enter min : ");
      scanf("%d", &min);
-     min=hours/60;
+     hours=min/60;
      printf("%d hours",hours);
      return 0;
 }
+
