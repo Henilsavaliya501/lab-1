@@ -1,11 +1,13 @@
 #include <stdio.h>
 int main()
 {
-     int min,hours;
+     int min,hours, rmin;
      printf("Enter min : ");
      scanf("%d", &min);
      hours=min/60;
-     printf("%d hours",hours);
-     return 0;
+     rmin=min%60;
+     
+     printf("%d min= %d hours and %d min",min,hours,rmin);
 }
+
 
